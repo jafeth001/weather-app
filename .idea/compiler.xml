@@ -8,14 +8,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springfordemo" />
+        <module name="consuming-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="consuming-api" target="17" />
       <module name="springfordemo" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consuming-api" options="-parameters" />
       <module name="springfordemo" options="-parameters" />
     </option>
   </component>

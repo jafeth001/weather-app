@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Consume-api.iml" filepath="$PROJECT_DIR$/.idea/Consume-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springfordemo/consuming-api.iml" filepath="$PROJECT_DIR$/springfordemo/consuming-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/springfordemo/springfordemo.iml" filepath="$PROJECT_DIR$/springfordemo/springfordemo.iml" />
     </modules>
   </component>
